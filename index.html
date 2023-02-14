@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shoping-Cart Design</title>
+
+    <!-- fontawesome link  -->
+    <script src="https://kit.fontawesome.com/0f9102b880.js" crossorigin="anonymous"></script>
+    <!-- fontawesome link  -->
+
+    <!-- css style sheet -->
+    <link rel="stylesheet" href="cart.css">
+    <!-- css style sheet -->
+
+</head>
+
+<body>
+    <header>
+        <h1>Simple Shoping Cart Design By Me</h1>
+    </header>
+    <main>
+        <section class="cart-section">
+            <div class="product-div-1">
+                <div class="cart-div">
+                    <div><i class="fa-solid fa-xmark multiply-icon"></i></div>
+                    <div><i class="fa-regular fa-heart fav-icon"></i></div>
+                    <div><img class="image-pro" src="image/product-1.jfif" alt=""></div>
+                    <div>
+                        <h3>Product Title</h3>
+                        <p>White</p>
+                    </div>
+                    <div><button id="plus-icon"><i class="fa-solid fa-plus plus-icon"></i></button></div>
+                    <div><input id="input-field" class="input-quantity" type="text" value="0"></div>
+                    <div><button id="minus-icon"><i class="fa-solid fa-minus minus-icon"></i></button></div>
+                    <div>
+                        <p>$<span id="price">0</span></p>
+                    </div>
+                </div>
+            </div>
+            <div class="product-div-1">
+                <div class="cart-div">
+                    <div><i class="fa-solid fa-xmark multiply-icon"></i></div>
+                    <div><i class="fa-regular fa-heart fav-icon"></i></div>
+                    <div><img class="image-pro" src="image/product-2.webp" alt=""></div>
+                    <div>
+                        <h3>Product Title</h3>
+                        <p>White</p>
+                    </div>
+                    <button><i id="plus-icon2" class="fa-solid fa-plus plus-icon"></i></button>
+                    <div><input id="input-field2" class="input-quantity" type="text" value="0"></div>
+                    <button><i id="minus-icon2" class="fa-solid fa-minus minus-icon"></i></button>
+                    <div>
+                        <p>$ <span id="price2">0</span></p>
+                    </div>
+                </div>
+            </div>
+            <div class="product-div-1">
+                <div class="cart-div">
+                    <div><i class="fa-solid fa-xmark multiply-icon"></i></div>
+                    <div><i class="fa-regular fa-heart fav-icon"></i></div>
+                    <div><img class="image-pro" src="image/product-3.webp" alt=""></div>
+                    <div>
+                        <h3>Product Title</h3>
+                        <p>White</p>
+                    </div>
+                    <button><i id="plus-icon3" class="fa-solid fa-plus plus-icon"></i></button>
+                    <div><input id="input-field3" class="input-quantity" type="text" value="0"></div>
+                    <button><i id="minus-icon3" class="fa-solid fa-minus minus-icon"></i></button>
+                    <div>
+                        <p>$ <span id="price3">0</span></p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section>
+            <div class="total-price">
+                <div>
+                    <h3>Product Price</h3>
+                    <h4>Tax</h4>
+                    <h3>Total</h3>
+                </div>
+                <div>
+                    <h3>$<span id="product-price">0</span></h3>
+                    <h4>$<span id="tax">0</span></h4>
+                    <h3>$ <span id="totalTaka">0</span></h3>
+                </div>
+            </div>
+            <button>CheckOut</button>
+        </section>
+    </main>
+    <script src="js/cart.js"></script>
+</body>
+
+</html>
